@@ -1,3 +1,5 @@
-# boopited.github.io
+**Git pages**: [boopited.github.io](https://boopited.github.io)
 
-Website for me.
+**github**: [boopited](https://github.com/boopited)
+
+**Email**: xingled@gmail.com
