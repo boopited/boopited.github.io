@@ -13,22 +13,47 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Let it go
+email: xingled@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Notes from an Android developer. 
+  Something about vehicle.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://boopited.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  boopited
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+remote_theme: pmarsceill/just-the-docs
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
+
+color_scheme: "light"
+# Logo will replace title
+# logo: /path/to/logo
+permalink: pretty
+
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: true
+
+# Enable support for hyphenated search words:
+search_tokenizer_separator: /[\s/]+/
+
+# Aux links for the upper right navigation
+aux_links:
+  "My GitHub":
+    - "//github.com/boopited"
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page.
+#
+# Supports true (default) or false/nil
+heading_anchors: true
+
+# Footer content appears at the bottom of every page's main content
+footer_content: "Notes from an Android developer."
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
