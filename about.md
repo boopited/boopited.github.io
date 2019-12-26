@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
+nav_order: 1
 ---
 
 #### Find me here:
