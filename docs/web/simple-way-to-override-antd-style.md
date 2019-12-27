@@ -3,6 +3,7 @@ layout: post
 title: Override ant design theme
 parent: Web UI
 nav_order: 1
+date: 2019-12-26
 ---
 
 # Simple way to override theme of ant design
