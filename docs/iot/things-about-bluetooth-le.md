@@ -94,7 +94,7 @@ Bluetooth is a packet-based protocol with a master/slave architecture. One maste
 
 The Bluetooth Core Specification provides for the connection of two or more piconets to form a scatternet, in which certain devices simultaneously play the master role in one piconet and the slave role in another.
 
-配对对于蓝牙BR/EDR是强制性的，而对于Bluetooth Smart则是选择性的。通常情况下，如果音频设备（如耳机）支持蓝牙4.x，则兼容4.x BR/EDR的规格，而不兼容Bluetooth Smart。也就是说一般蓝牙耳机都要配对后使用。
+Pairing is MUST for Bluetooth BR/EDR, but OPTIONAL for Bluetooth Smart. Generally if an audio device(e.g. headset) is specified to support Bluetooth 4.x, 4.x BR/EDR is supported, not Bluetooth Smart. Generally Bluetooth headsets have to be paired before use.
 
 General connection sequences:
 
